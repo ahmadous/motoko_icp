@@ -1,14 +1,13 @@
 {
   "canisters": {
     "my_backend": {
-      "main": "src/my_backend/main.mo",
-      "type": "motoko"
-    }
-  },
-  "defaults": {
-    "build": {
-      "args": "",
-      "packtool": ""
+      "main": "src/my_backend/main.mo", 
+      "type": "motoko",
+      "metadata": [
+   {
+     "name": "candid:service"
+   }
+]
     }
   },
   "output_env_file": ".env",
